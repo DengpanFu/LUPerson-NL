@@ -1,8 +1,8 @@
 # The Process to build LUPerson
 
-All the videos' YouTube key can be found at [vnames.txt](https://drive.google.com/file/d/1eopcxZPNHnaobjnSwP37U2YFlptNE0A0/view?usp=sharing)
+All the videos' YouTube key can be found at [vnames.txt](https://drive.google.com/file/d/19XPcO61QGrcNcqYE1pRZ1Hk3Z4CNu-6X/view?usp=sharing)
 
-All detection results can be found at [dets.pkl](https://drive.google.com/file/d/1t_XPHOI_VzuebaAnXccu4iIzDXMNpTJO/view?usp=sharing)
+All detection results can be found at [dets.zip](https://drive.google.com/file/d/1-bFKMRglmD_e3wdtq4jlpjX3N3xGo2d2/view?usp=sharing)
 
 **!! The following scripts are not well tested, but provide the main processes !!**.
 

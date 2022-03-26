@@ -4,7 +4,7 @@ All the videos' YouTube key can be found at [vnames.txt](https://drive.google.co
 
 All detection results can be found at [dets.zip](https://drive.google.com/file/d/1-bFKMRglmD_e3wdtq4jlpjX3N3xGo2d2/view?usp=sharing)
 
-**!! The following scripts are not well tested, but provide the main processes !!**.
+**!! The following scripts are not well tested, you may fail to download some videos, but the scripts provide the main procedure !!**.
 
 ## Download the raw videos
 ```

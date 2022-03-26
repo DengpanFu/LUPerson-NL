@@ -1,7 +1,7 @@
 # LUPerson-NL
 Large-Scale Pre-training for Person Re-identification with Noisy Labels (LUPerson-NL)
 
-The repository is for our CVPR2021 paper [Large-Scale Pre-training for Person Re-identification with Noisy Labels]().
+The repository is for our CVPR2022 paper [Large-Scale Pre-training for Person Re-identification with Noisy Labels]().
 
 ## LUPerson Dataset
 LUPerson is currently the largest unlabeled dataset for Person Re-identification, which is used for Unsupervised Pre-training. LUPerson consists of 4M images of over 200K identities and covers a much diverse range of capturing environments. 

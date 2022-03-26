@@ -1,4 +1,4 @@
-# The Process to build LUPerson
+# The Process to build LUPerson-NL
 
 All the videos' YouTube key can be found at [vnames.txt](https://drive.google.com/file/d/19XPcO61QGrcNcqYE1pRZ1Hk3Z4CNu-6X/view?usp=sharing)
 
@@ -22,4 +22,4 @@ python extract.py -v ${YOUR_VIDEO_DIR} -d ${DETECTION_DIR} -s ${SAVE_DIR}
 python convert_lmdb.py
 ```
 
-# Three is a third reconstruction at [Issue](https://github.com/DengpanFu/LUPerson/issues/8#issuecomment-1004611808), please refer to it.
+# You can also download it from [BaiDuDisk](pan.baidu.com/)

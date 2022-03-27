@@ -3,7 +3,7 @@
 DATA_DIR="/home/dengpanfu/data"
 EXP_DIR="/home/dengpanfu/project/lupnl/moco"
 
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python lnl.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python lup_moco.py \
     --data_path "${DATA_DIR}/lupnl_lmdb/lmdb" \
     --info_path "${DATA_DIR}/lupnl_lmdb/keys.pkl" \
     --eval_path "${DATA_DIR}/reid" \

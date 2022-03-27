@@ -12,10 +12,10 @@ from random import sample
 import numpy as np
 import torch.nn.functional as F
 
-class LNL(nn.Module):
+class PNL(nn.Module):
     def __init__(self, base_encoder, backbone, dim=128, K=65536, m1=0.999, m2=0.999, 
         T=0.1, cls_num=1000, alpha=0.5, pseudo_th=0.8, cls_dim=None):
-        super(LNL, self).__init__()
+        super(PNL, self).__init__()
         self.dim       = dim
         self.K         = K    # queue size
         self.m1        = m1   # momentum for encoder

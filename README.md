@@ -20,22 +20,30 @@ For MGN with ResNet50:
 
 |Dataset | mAP | cmc1 | link |
 |:------:|:---:|:----:|:----:|
-| MSMT17 | 66.06/79.93 | 85.08/87.63 | - |
-| DukeMTMC | 82.27/91.70 | 90.35/92.82 | - |
-| Market1501 | 91.12/96.16 | 96.26/97.12 | - |
-| CUHK03-L | 74.54/85.84 | 74.64/82.86 | - |
+| MSMT17 | 68.0 | 86.0 | - |
+| DukeMTMC | 84.3 | 92.0 | - |
+| Market1501 | 91.9 | 96.6 | - |
+| CUHK03-L | 80.4 | 80.9 | - |
 
-These numbers are a little different from those reported in our paper, and most are slightly better.
+<!-- These numbers are a little different from those reported in our paper, and most are slightly better. -->
 
 For MGN with ResNet101:
 |Dataset | mAP | cmc1 | path |
 |:------:|:---:|:----:|:----:|
-| MSMT17 | 68.41/81.12 | 86.28/88.27 | - |
-| DukeMTMC | 84.15/92.77 | 91.88/93.99 | - |
-| Market1501 | 91.86/96.21 | 96.56/97.03 | - |
-| CUHK03-L | 75.98/86.73 | 75.86/84.07 | - |
+| MSMT17 | 70.8 | 87.1 | - |
+| DukeMTMC | 85.5 | 92.8 | - |
+| Market1501 | 92.5 | 96.9 | - |
+| CUHK03-L | 80.5 | 81.2 | - |
 
-**The numbers are in the format of `without RR`/`with RR`**.
+For MGN with ResNet152:
+|Dataset | mAP | cmc1 | path |
+|:------:|:---:|:----:|:----:|
+| MSMT17 | 71.6 | 87.5 | - |
+| DukeMTMC | 85.6 | 92.4 | - |
+| Market1501 | 92.7 | 96.8 | - |
+| CUHK03-L | 80.6 | 81.2 | - |
+
+<!-- **The numbers are in the format of `without RR`/`with RR`**. -->
 
 
 ## Citation

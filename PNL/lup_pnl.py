@@ -28,7 +28,7 @@ import torchvision.models as models
 from libs.dataset import PersonDatasetFM, CMDM
 from libs.transform import get_lup_transformer, get_reid_test_transformer, \
                            get_reid_train_transformer
-from libs.lnl_builder import LNL
+from libs.pnl_builder import PNL
 from libs.encoder import MoCoEncoder
 from libs.loader import IterDistributedSampler, InferenceSampler
 from libs.lars import get_lars_optimizer
@@ -255,7 +255,7 @@ def main_worker(gpu, ngpus_per_node, args):
     if args.rank == 0:
         print("Creating model '{}'".format(args.arch))
     
-    model = LNL(MoCoEncoder, models.__dict__[args.arch], dim=args.moco_dim, 
+    model = PNL(MoCoEncoder, models.__dict__[args.arch], dim=args.moco_dim, 
                K=args.moco_k, m1=args.moco_m, m2=args.proto_m, T=args.T, 
                cls_num=train_dataset.num_cls, alpha=args.alpha, 
                pseudo_th=args.pseudo_th, cls_dim=args.cls_dim)

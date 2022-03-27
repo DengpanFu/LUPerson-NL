@@ -1,6 +1,9 @@
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
-import os
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Date    : 2021-01-22 19:30:24
+# @Author  : Dengpan Fu (fdpan@mail.ustc.edu.cn)
 
+import os
 import torch
 import torch.nn as nn
 from torch.nn import init

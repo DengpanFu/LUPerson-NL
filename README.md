@@ -3,10 +3,10 @@ Large-Scale Pre-training for Person Re-identification with Noisy Labels (LUPerso
 
 The repository is for our CVPR2022 paper [Large-Scale Pre-training for Person Re-identification with Noisy Labels]().
 
-## LUPerson Dataset
-LUPerson is currently the largest unlabeled dataset for Person Re-identification, which is used for Unsupervised Pre-training. LUPerson consists of 4M images of over 200K identities and covers a much diverse range of capturing environments. 
+## LUPerson-NL Dataset
+LUPerson-NL is currently the largest noisy annotated Person Re-identification dataset without humuan labelling efforts, which is used for Pre-training. LUPerson-NL consists of 10M images of over 430K identities extracted from 21K street-view videos and covers a much diverse range of capturing environments. 
 
-**Details can be found at ./LUP**.
+**Details can be found at [./LUP-NL](https://github.com/DengpanFu/LUPerson-NL/tree/main/LUP-NL)**.
 
 ## Pre-trained Models
 | Model | link |

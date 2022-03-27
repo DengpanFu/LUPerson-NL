@@ -11,9 +11,9 @@ LUPerson-NL is currently the largest noisy annotated Person Re-identification da
 ## Pre-trained Models
 | Model | link |
 | :------: | :------: |
-| ResNet50 | [R50](https://drive.google.com/file/d/1pFyAdt9BOZCtzaLiE-W3CsX_kgWABKK6/view?usp=sharing) |
-| ResNet101 | [R101](https://drive.google.com/file/d/1Ckn0iVtx-IhGQackRECoMR7IVVr4FC5h/view?usp=sharing) |
-| ResNet152 | [R152](https://drive.google.com/file/d/1nGGatER6--ZTHdcTryhWEqKRKYU-Mrl_/view?usp=sharing) |
+| ResNet50 | [R50](https://pan.baidu.com/s/1aZxpwlZvekA4V-bQgZOM8w) 提取码: pr50 |
+| ResNet101 | [R101](https://pan.baidu.com/s/1wQW7M6IKtEFUKbZVpzSjcg) 提取码: r101 |
+| ResNet152 | [R152](https://pan.baidu.com/s/1hAqZlQYRgmnkx8qsZQjKMw) 提取码: r152 |
 
 ## Finetuned Results
 For MGN with ResNet50:

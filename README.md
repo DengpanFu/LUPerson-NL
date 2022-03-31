@@ -1,7 +1,7 @@
 # LUPerson-NL
 Large-Scale Pre-training for Person Re-identification with Noisy Labels (LUPerson-NL)
 
-The repository is for our CVPR2022 paper [Large-Scale Pre-training for Person Re-identification with Noisy Labels]().
+The repository is for our CVPR2022 paper [Large-Scale Pre-training for Person Re-identification with Noisy Labels](https://arxiv.org/abs/2203.16533).
 
 ## LUPerson-NL Dataset
 LUPerson-NL is currently the largest noisy annotated Person Re-identification dataset without humuan labelling efforts, which is used for Pre-training. LUPerson-NL consists of 10M images of over 430K identities extracted from 21K street-view videos and covers a much diverse range of capturing environments. 
@@ -11,9 +11,9 @@ LUPerson-NL is currently the largest noisy annotated Person Re-identification da
 ## Pre-trained Models
 | Model | link |
 | :------: | :------: |
-| ResNet50 | [R50](https://pan.baidu.com/s/1aZxpwlZvekA4V-bQgZOM8w) 提取码: pr50 |
-| ResNet101 | [R101](https://pan.baidu.com/s/1wQW7M6IKtEFUKbZVpzSjcg) 提取码: r101 |
-| ResNet152 | [R152](https://pan.baidu.com/s/1hAqZlQYRgmnkx8qsZQjKMw) 提取码: r152 |
+| ResNet50 | [R50](https://pan.baidu.com/s/1aZxpwlZvekA4V-bQgZOM8w) code:pr50 |
+| ResNet101 | [R101](https://pan.baidu.com/s/1wQW7M6IKtEFUKbZVpzSjcg) code:r101 |
+| ResNet152 | [R152](https://pan.baidu.com/s/1hAqZlQYRgmnkx8qsZQjKMw) code:r152 |
 
 ## Finetuned Results
 For MGN with ResNet50:

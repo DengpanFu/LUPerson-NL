@@ -57,10 +57,10 @@ If you find this code useful for your research, please cite our paper.
 }
 ```
 ```
-@article{fu2021pnl,
+@article{fu2022large,
   title={Large-Scale Pre-training for Person Re-identification with Noisy Labels},
   author={Fu, Dengpan and Chen, Dongdong and Yang, Hao and Bao, Jianmin and Yuan, Lu and Zhang, Lei and Li, Houqiang and Wen, Fang and Chen, Dong},
-  journal={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  journal={arXiv preprint arXiv:2203.16533},
   year={2022}
 }
 ```

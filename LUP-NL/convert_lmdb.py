@@ -78,7 +78,7 @@ if __name__ == "__main__":
         assert(os.path.exists(lmdb_dir)), 'lmdb file: {} does not exist'.format(lmdb_dir)
         assert(os.path.exists(key_path)), 'key file: {} does not exist'.format(key_path)
         env = lmdb.open(lmdb_dir, readonly=True, lock=False, readahead=False, meminit=False)
-        keys = pickle.load(open(key_path, "rb"))['keys']
+        keys = pickle.load(open(key_path, "rb"))['keys'][:100]  # check and visulize the first 100 images.
         for key in keys:
             with env.begin(write=False) as txn:
                 buf = txn.get(key.encode('ascii'))

@@ -22,4 +22,4 @@ python extract.py -v ${YOUR_VIDEO_DIR} -d ${DETECTION_DIR} -s ${SAVE_DIR}
 python convert_lmdb.py
 ```
 
-# You can also download it from [BaiDuDisk](https://pan.baidu.com/s/1sNV62vxm2VtgkVa7V4VmIA) code:plnl
+# You can also download our processed LUPerson-NL from [BaiDuDisk](https://pan.baidu.com/s/1sNV62vxm2VtgkVa7V4VmIA) code:plnl
